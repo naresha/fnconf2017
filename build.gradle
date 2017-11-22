@@ -1,0 +1,11 @@
+apply plugin: "java"
+apply plugin: "application"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "io.vavr:vavr:0.9.1"
+    compile "io.vavr:vavr-test:0.9.1"
+}
